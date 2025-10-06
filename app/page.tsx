@@ -7,7 +7,7 @@ export default function HomePage() {
     {
       title: "Portfolio Website",
       description: "A responsive admin dashboard with charts, tables, and theming.",
-      tags: ["React", "Next.js", "Tailwind"],
+      tags: ["React", "Next.js", "Tailwind", "TypeScript"],
       repo: "#",
       live: "#",
     },

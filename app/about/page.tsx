@@ -50,7 +50,7 @@ export default function AboutPage() {
         <div className="flex justify-center md:justify-start">
           {/* Using placeholder for headshot */}
           <Image
-            src="/developer-portrait.jpg"
+            src="https://github.com/AnshumanPandey001/Portfolio/blob/main/public/developer-portrait.jpg?raw=true"
             alt="Portrait of Anshuman"
             width={160}
             height={160}

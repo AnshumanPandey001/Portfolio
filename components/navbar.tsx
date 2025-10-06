@@ -73,7 +73,7 @@ export function Navbar() {
     {/* Profile image */}
     <div className="w-24 h-24 rounded-full overflow-hidden border-2 border-gray-600">
       <img
-        src="/developer-portrait.jpg"
+        src="https://github.com/AnshumanPandey001/Portfolio/blob/main/public/developer-portrait.jpg?raw=true"
         alt="Profile photo"
         className="w-full h-full object-cover"
       />

@@ -119,12 +119,12 @@ export default function AboutPage() {
         <h2 className="text-lg font-semibold">Tech I use</h2>
         <div className="mt-4 grid grid-cols-4 items-center gap-4 sm:grid-cols-6">
           {[
-            { alt: "MongoDB logo", src: "/mongodb-logo.png" },
-            { alt: "Express logo", src: "/express-logo.jpg" },
+            { alt: "MongoDB logo", src: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/MongoDB_Fores-Green.svg/1920px-MongoDB_Fores-Green.svg.png" },
+            { alt: "Express logo", src: "https://upload.wikimedia.org/wikipedia/commons/d/d7/Sql_data_base_with_logo.svg" },
             { alt: "React logo", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/1024px-React_Logo_SVG.svg.png" },
-            { alt: "Node.js logo", src: "/nodejs-logo.png" },
-            { alt: "Next.js logo", src: "/nextjs-logo.png" },
-            { alt: "Tailwind CSS logo", src: "/tailwind-css-logo.png" },
+            { alt: "Node.js logo", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1920px-Node.js_logo.svg.png" },
+            { alt: "Next.js logo", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Next.js_wordmark.svg/1920px-Next.js_wordmark.svg.png" },
+            { alt: "Tailwind CSS logo", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Tailwind_CSS_logo.svg/1920px-Tailwind_CSS_logo.svg.png" },
           ].map((l) => (
             <Image
               key={l.alt}

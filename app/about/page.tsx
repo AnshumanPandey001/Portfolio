@@ -13,12 +13,12 @@ function EducationTimeline() {
     {
       degree: "CLASS 12TH ",
       years: "2021 - 2022",
-      institution: "Maharashtra State Board of Secondary and Higher Secondary Education (MSBSHSE)",
+      institution: "Thakur College Of Science and Commerce, Mumbai",
     },
     {
       degree: "CLASS 10TH ",
       years: "2019 - 2020",
-      institution: "City Public School & College",
+      institution: "Maharashtra State Board of Secondary and Higher Secondary Education (MSBSHSE)",
     },
   ]
 
@@ -121,7 +121,7 @@ export default function AboutPage() {
           {[
             { alt: "MongoDB logo", src: "/mongodb-logo.png" },
             { alt: "Express logo", src: "/express-logo.jpg" },
-            { alt: "React logo", src: "/react-logo.png" },
+            { alt: "React logo", src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/1024px-React_Logo_SVG.svg.png" },
             { alt: "Node.js logo", src: "/nodejs-logo.png" },
             { alt: "Next.js logo", src: "/nextjs-logo.png" },
             { alt: "Tailwind CSS logo", src: "/tailwind-css-logo.png" },
